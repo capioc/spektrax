@@ -1,0 +1,80 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  background-color: #282c34;
+  color: white;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding-top: 25px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: row;
+  width: 750px;
+  margin: auto;
+
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  flex: 0 1 40%;
+  
+}
+
+.form-input {
+  display: block;
+  width: auto;
+  margin-bottom: 16px;
+}
+
+input[type="file"] {
+  display: none;
+}
+.button {
+  border: 1px solid #ccc;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+  margin-bottom: 16px;
+}
+
+button[type="submit"] {
+  background-color: cadetblue;
+  font-size: 16px;
+}
+
+.status-container {
+  text-align: left;
+  flex: 1 1 auto;
+  margin-left: 64px;
+  color: greenyellow;
+}
+
+.status-container h3{
+  margin-top: -6px;
+}
+
+.charts-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
