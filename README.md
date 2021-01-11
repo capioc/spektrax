@@ -5,10 +5,10 @@
 
 
 ### Usage
-1. Visit the link
+1. Visit the deployed app https://spektrax-assignment.web.app/
 2. Type an arbitrary Id and a Comment
-3. Choose a valid CSV file (see attached the test file I was given)
+3. Choose a valid CSV file (see attached) [spectrum.csv.zip](https://github.com/capioc/spektrax/files/5795947/spectrum.csv.zip) 
 4. Press submit
 5. Wait 2 seconds until the analysis is done. Two charts will appear (as you can see below)
 
-![alt text] (https://drive.google.com/file/d/19O5G6AGOZSDxtV2cStQrfTdmPEgDbk0F/view?usp=sharing)
+![20201127_151227](https://user-images.githubusercontent.com/2406952/104187535-99be3c00-5420-11eb-9254-53d2ead48d39.gif)
